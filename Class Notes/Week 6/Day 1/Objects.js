@@ -210,42 +210,40 @@
 
 // console.log(numbersSquare)
 
-const countries = [
-  'Albania',
-  'Bolivia',
-  'Canada',
-  'Denmark',
-  'Ethiopia',
-  'Finland',
-  'Germany',
-  'Hungary',
-  'Ireland',
-  'Japan',
-  'Kenya',
-]
-const countriesToUpperCase = countries.map((country) => country.toUpperCase())
-console.log(countriesToUpperCase)
+// const countries = [
+//   'Albania',
+//   'Bolivia',
+//   'Canada',
+//   'Denmark',
+//   'Ethiopia',
+//   'Finland',
+//   'Germany',
+//   'Hungary',
+//   'Ireland',
+//   'Japan',
+//   'Kenya',
+// ]
+// const countriesToUpperCase = countries.map((country) => country.toUpperCase())
+// console.log(countriesToUpperCase)
 
-/*
-// Arrow function
-const countriesToUpperCase = countries.map((country) => {
-  return country.toUpperCase();
-})
-//Explicit return arrow function
-const countriesToUpperCase = countries.map(country => country.toUpperCase());
-*/
-//Filter countries containing land
-const countriesContainingLand = countries.filter((country) =>
-  country.includes('land')
-)
-console.log(countriesContainingLand)
+// /*
+// // Arrow function
+// const countriesToUpperCase = countries.map((country) => {
+//   return country.toUpperCase();
+// })
+// //Explicit return arrow function
+// const countriesToUpperCase = countries.map(country => country.toUpperCase());
+// */
+// //Filter countries containing land
+// const countriesContainingLand = countries.filter((country) =>
+//   country.includes('land')
+// )
+// console.log(countriesContainingLand)
 
-const countriesHaveFiveLetters = countries.filter(
-  (country) => country.length === 5
-)
-console.log(countriesHaveFiveLetters)
-
-
+// const countriesHaveFiveLetters = countries.filter(
+//   (country) => country.length === 5
+// )
+// console.log(countriesHaveFiveLetters)
 
 
 
@@ -253,13 +251,32 @@ console.log(countriesHaveFiveLetters)
 
 
 
-//Filter
-//Filter: Filter out items which full fill filtering conditions and return a new array.
 
-const arr = [23, 34, 77, 99, 324];
-let sum = 0;
-for (let i = 0; i < arr.length; i++) {
-  sum += arr[i];
+
+// //Filter
+// //Filter: Filter out items which full fill filtering conditions and return a new array.
+
+// const arr = [23, 34, 77, 99, 324];
+// let sum = 0;
+// for (let i = 0; i < arr.length; i++) {
+//   sum += arr[i];
+// }
+
+// console.log(sum);
+
+let person = {
+  firstName: "Jeremy",
+  lastName: "Elbertson",
+  age: 29,
+  skills: [
+    "Livestreaming", 
+    "House Husbandry", 
+    "The Horror", 
+    "Video Production", 
+    "Double-jointed"
+  ]
 }
 
-console.log(sum);
+console.log(person.firstName, person.lastName)
+
+console.log(person["firstName"], person["lastName"])
