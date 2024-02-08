@@ -5,8 +5,12 @@
 // // //1.  Declaration Function
 // //   function functionName() {
 // //     //code goes here
+
+
 // //   }
 // // functionName()
+
+
 
 // // //Example - this function will return the square of a number
 // // //   function square() {

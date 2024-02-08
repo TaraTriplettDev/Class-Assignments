@@ -1,7 +1,17 @@
 /******************
  * YOUR CODE BELOW *
  ******************/
-
+var myFirstName = "Tara";
+var myLastName = "Triplett";
+var myFavoriteCeleb = "Kotaro Uchikoshi";
+var mySentence = "Hi, I am " + myFirstName + " " + myLastName + ", " + "and my favorite celebrity is " + myFavoriteCeleb + "!";
+var myLuckyNum = 4;
+var myAge = 25;
+var myHeight = 5.8;
+var myFavoriteYear = 2002; 
+var mySum = 5 + 2317 + 36;
+var myProduct = 232 * 43 / 2 + 4;
+var myHeightAndAge = myAge + myHeight;
 
 /*********************************************************************************************************************
 
