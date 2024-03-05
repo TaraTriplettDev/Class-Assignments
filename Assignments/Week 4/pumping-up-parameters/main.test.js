@@ -4,8 +4,31 @@ Your code goes below.
 
 */
 
+var x = 3
+var y = 10
+var z = 5
+var name = 'Kyle'
+var greeting = 'HEY'
 
+function multiply(n) {
+  x *= n;
+}
 
+function modYBy(n) {
+  y = y % n;
+}
+
+function opposite(n) {
+  z = n * -1;
+}
+
+var makeFullName = () => {
+  name = name + " " + "Rose"
+}
+
+function yellAt() {
+  greeting = greeting + ", " + "Kyle" + "!"
+}
 
 
 /*********************************************************************************************************************
